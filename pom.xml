@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>MyPlayground</name>
     <description>MyPlayground</description>
+    <packaging>pom</packaging>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -44,6 +45,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <modules>
+        <module>SpringbootKafka</module>
+    </modules>
 
     <build>
         <plugins>
