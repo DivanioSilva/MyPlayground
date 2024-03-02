@@ -1,0 +1,22 @@
+= Getting Started
+
+== Reference Documentation
+
+This is a POC about the integration between Kafka and Spring Boot.
+
+=== Docker Compose file: contains the following components:
+
+. Kafka
+. Zookeeper
+
+This project has a producer and a consumer both for Kafka.
+
+To be able to simulate the producer and consumer behaviors a REST endpoint was created for that purposes.
+
+=== How it works?
+
+Run the docker-compose file and wait until all the components to be ready, Kafka will the listening the 29092 port, then run the Springboot application.
+
+After that the */send* endpoint will be waiting for the *POST* calls.
+
+Example: `http://localhost:8080/send?message=Hello_World`
