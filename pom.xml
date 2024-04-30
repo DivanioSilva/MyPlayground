@@ -48,6 +48,7 @@
 
     <modules>
         <module>SpringbootKafka</module>
+        <module>Keycloak</module>
     </modules>
 
     <build>
