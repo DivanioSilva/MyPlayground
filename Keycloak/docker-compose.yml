@@ -11,8 +11,8 @@ services:
       DEBUG: 'true'
       DEBUG_PORT: '*:8787'
       KC_FEATURES: preview
-      KEYCLOAK_ADMIN: a
-      KEYCLOAK_ADMIN_PASSWORD: a
+      KC_BOOTSTRAP_ADMIN_USERNAME: b
+      KC_BOOTSTRAP_ADMIN_PASSWORD: b
     ports:
       - '8080:8080'
       - '8787:8787'
